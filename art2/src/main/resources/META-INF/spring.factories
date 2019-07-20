@@ -1,0 +1,13 @@
+# ApplicationContextInitializer  µœ÷≈‰÷√
+org.springframework.context.ApplicationContextInitializer=\
+com.wrial.art2.context.HelloWorldApplicationContextInitializer,\
+com.wrial.art2.context.AfterHelloWorldApplicationContextInitializer
+
+org.springframework.context.ApplicationListener=\
+com.wrial.art2.listener.HelloWorldApplicationListener,\
+com.wrial.art2.listener.HelloWorldFlashApplicationListener,\
+com.wrial.art2.listener.BeforeConfigFileApplicationListener,\
+com.wrial.art2.listener.AfterConfigFileApplicationListener
+
+org.springframework.boot.SpringApplicationRunListener=\
+com.wrial.art2.run.HelloWorldRunListener

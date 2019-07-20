@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="art2" />
+        <module name="art3_springwebmvc" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="art1" target="1.8" />
+      <module name="art2" target="1.8" />
+      <module name="art3_SpringWebMvc" target="1.8" />
+      <module name="art3_springwebmvc" target="6" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="art1" options="-parameters" />
+      <module name="art2" options="-parameters" />
+      <module name="art3_SpringWebMvc" options="-parameters" />
+    </option>
+  </component>
+</project>
