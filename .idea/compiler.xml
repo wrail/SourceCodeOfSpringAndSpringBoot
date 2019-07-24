@@ -10,6 +10,7 @@
         <module name="art5_view" />
         <module name="art2" />
         <module name="art3_springwebmvc" />
+        <module name="art6_rest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="art3_springwebmvc" target="6" />
       <module name="art4_springboot_springwebmvc" target="1.8" />
       <module name="art5_view" target="1.8" />
+      <module name="art6_rest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -28,6 +30,7 @@
       <module name="art3_SpringWebMvc" options="-parameters" />
       <module name="art4_springboot_springwebmvc" options="-parameters" />
       <module name="art5_view" options="-parameters" />
+      <module name="art6_rest" options="-parameters" />
     </option>
   </component>
 </project>
